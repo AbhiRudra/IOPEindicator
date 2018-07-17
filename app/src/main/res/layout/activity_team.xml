@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaa"
+    android:orientation="vertical"
+
+    android:padding="10dp"
+    tools:context="com.abhishek.iope_indicator.Team"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Project Team:"
+        android:paddingTop="60dp"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1)Sopan Pandurang Masure\n2)Shreyash Uttam Pawar\n3)Siddhesh Pratap Ghosalkar\n4)Shubham Vinherkar"
+        android:textColor="#a74343"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+
+</LinearLayout>

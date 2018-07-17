@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:padding="10dp"
+    android:layout_height="match_parent"
+
+    tools:context="com.abhishek.iope_indicator.About">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="#aaa"
+        app:srcCompat="@drawable/iopeb" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Institute of Petrochemical Engineering was established by government of Maharashtra under the World Bank Assisted Project. Over the years it has grown into a premier institution with excellent teaching-learning environment to achieve excellence in imparting quality technical education thereby generating technocrats compatible with needs of current industries &#38; society. This Institute is a conducted institution of the University running Diploma Courses in eight streams of Engineering and Technology and one Advanced Diploma in Water Quality Management. All the diplomas are awarded by the University. The Institute extends its services to the society through a scheme of &#34;Community Developments through Polytechnic &#34; sponsored by MHRD, New Delhi by educating the dropouts and empowering them with technical skills. The Institute is located at Lonere, the place located in the ranges of Western Ghat, at the foot of Raigad fort, the place from where Chhatrapati Shivaji administered his major activities."
+        android:textSize="16
+        dp"
+        android:textColor="#000"/>
+
+</LinearLayout>
+
+</ScrollView>
